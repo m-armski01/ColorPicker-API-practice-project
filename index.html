@@ -3,7 +3,29 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>index.html</h1>
+        <header>
+            <form id="form">
+                <input type="color" id="base-color-pick" value="#793E3E">
+
+                <select name="palette" id="palette-style" aria-label="Choose Palette Style">
+                <option value="Monochrome">Monochrome</option>
+                <option value="Monochrome-dark">Monochrome-dark</option>
+                <option value="Monochrome-light">Monochrome-light</option>
+                <option value="Analogic">Analogic</option>
+                <option value="Complement">Complement</option>
+                <option value="Analogic-complement">Analogic-complement</option>
+                <option value="Triad">Triad</option>
+                </select>
+
+                <button id="submit" type="submit">Get color scheme</button>
+            </form>
+        </header>
+        <main>
+            <div id="color-palette">
+                <p class='center'> start schemin'...</p>
+            </div>
+        </main>
+
         <script src="index.js"></script>
     </body>
 </html>
