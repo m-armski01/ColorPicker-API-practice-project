@@ -98,3 +98,13 @@ p {
     font-family: sans-serif;
     font-size: 0.75rem;
 }
+
+.color-code {
+    cursor: pointer;
+}
+
+.color-code:hover,
+.color-code:active {
+    cursor: pointer;
+    color: gray;
+}
